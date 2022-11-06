@@ -1,0 +1,166 @@
+
+h1 {
+    color:blanchedalmond;
+
+margin-top :5rem; 
+margin-bottom:5rem ;
+display:flex;
+justify-content: center;
+
+}
+
+
+
+
+
+img {
+    max-width: 100%;
+}
+
+
+body {
+    background-color:rgb(56, 52, 56) ;
+}
+
+@media screen and (max-width:400px) {
+    body {
+        background-color: brown;
+    }
+    
+}
+    
+ 
+
+
+ header {
+background-image:url(../img/fondo.jpg) ;
+background-size: cover;
+
+}
+
+
+    
+
+
+
+
+.fuente-media {
+
+    font-size: 30px;
+    
+}
+
+#lista-menu {
+    font-size:30px ;
+    
+     
+}
+
+
+li a {
+    color:rgb(220, 59, 85),
+    
+}
+/**navegacion para poner horizontal en este caso el menu**/
+
+h2 {
+    color:rgb(222, 170, 179);
+    display:flex;
+    justify-content: center;
+   
+}
+ .navegacion {
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+   margin-right:2.5rem;
+    
+    
+}
+
+.navegacion li {
+color: rgb(252, 69, 99);
+transition:6s ;
+}
+.navegacion li :hover {
+    color:bisque ;
+}
+
+
+
+ul {
+    color:rgb(244, 221, 249)
+}
+
+div {
+color:antiquewhite;
+}
+
+.aulas {
+ display:flex;
+
+margin-right: 2rem;
+margin-left: 2rem;
+   
+}
+
+.separados {
+justify-content: space-between;
+
+}
+
+ 
+.imagen-align {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+   
+}
+
+.horror-orden {
+    order:-2
+}
+ @media  screen and (max-width:400px) {
+    .navegacion {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    
+ }
+
+
+
+ input:focus {
+    width : 900px;
+    
+
+ }
+ .barra-progreso {
+    margin-top: 30px;
+    width: 100%;
+    border:solid 2px ;
+    height:7px;
+ }
+ .barra-completado {
+   width: 100%;
+    border:solid 2px ;
+    height:6px;
+    background-color: brown;
+    animation:cargando 2s infinite;
+ }
+ @keyframes cargando {
+    0% {
+        width: o;
+    }
+    100% {
+        width:30%;
+    }
+ }
+
+
+ 
+
+ 
