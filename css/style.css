@@ -8,6 +8,24 @@ display:flex;
 justify-content: center;
 
 }
+h1 {
+    animation-duration: 2s;
+    animation-name:aparecer;
+    animation-iteration-count:infinite ;
+}
+@keyframes aparecer {
+    0% {
+      opacity:0 ;
+
+    }
+
+
+    100% {
+        opacity:1 ;
+    }
+}
+
+
 
 
 
@@ -131,6 +149,13 @@ justify-content: space-between;
     
  }
 
+ .caja-rosa {
+
+    height: 200px;
+    width:200px ;
+    background-color: pink;
+ }
+
 
 
  input:focus {
@@ -149,7 +174,7 @@ justify-content: space-between;
     border:solid 2px ;
     height:6px;
     background-color: brown;
-    animation:cargando 2s infinite;
+    animation:cargando 2s ;
  }
  @keyframes cargando {
     0% {
@@ -160,7 +185,5 @@ justify-content: space-between;
     }
  }
 
-
- 
 
  
