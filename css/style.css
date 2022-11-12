@@ -40,7 +40,7 @@ body {
     background-color:rgb(56, 52, 56) ;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:460px) {
     body {
         background-color: brown;
     }
@@ -139,7 +139,7 @@ justify-content: space-between;
 .horror-orden {
     order:-2
 }
- @media  screen and (max-width:400px) {
+ @media  screen and (max-width:460px) {
     .navegacion {
         display: flex;
         flex-direction: column;
@@ -163,6 +163,107 @@ justify-content: space-between;
     
 
  }
+
+
+ /*empieza clases*/
+
+table {
+    color:antiquewhite;
+  }
+
+  @media screen and (max-width:460px) {
+    
+  .table-viernes {
+      width:250px ;
+    -webkit-border-horizontal-spacing: 0.30px;
+    -webkit-border-vertical-spacing: 3px;
+
+  }
+ .angosto {
+    width:250px ;
+    justify-content: center;
+ }
+  }
+
+
+/*acá empieza Muestras */
+
+
+
+.grilla {
+    display: grid;
+    grid-template-columns:2 ,1fr;
+    grid-template-rows:auto auto ;
+   
+    grid-template-areas:
+    "galeria galeria tienda"
+    "galeria galeria tienda"
+     " footer footer footer"
+  ;
+   }
+  .galeria {
+    display: flex;
+    flex-direction: column;
+    
+  
+    width: 800px;
+    height:320px;
+  }
+  
+  
+  
+   .tienda {
+    border:solid 2px rgb(245, 245, 245)
+    
+  }
+  .tienda {
+    display: flex;
+    justify-content: center;
+    background-image:linear-gradient(to left ,grey, rgb(226, 96, 117)) ;
+  }
+  
+  
+  /*media querie para dispositivos pequeños muestras  */
+   
+   /*tienda*/
+   @media screen and (max-width: 460px) {
+    .galeria
+     {
+      width:92px;
+     height:123px;
+     display: flex;
+     flex-direction: row;
+    }
+  
+      .grilla{
+       display: flex;
+       flex-direction: column;
+      }
+  
+      .tienda {
+        width:500px ;
+        height: 1775px ;
+        margin-top:10px ;
+        
+      }
+      .card-muestra{
+        width:250px ;
+        height:500px;
+      margin-bottom:50px ;
+      margin-right: 65px;
+      
+        
+      }
+      
+    }
+  
+
+
+
+
+
+  /*contactos */
+
  .barra-progreso {
     margin-top: 30px;
     width: 100%;
