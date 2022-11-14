@@ -68,7 +68,7 @@ background-size: cover;
 }
 
  
-
+/*redes sociales para desktop*/
 
 
 
@@ -90,15 +90,56 @@ background-size: cover;
   margin-left:1600px ;
   width:30px ;
 }
- .container {
-  margin-bottom:50px ;
-  
-  
- }
 
+/*redes sociales para media querie dispo medianos */
  
 
+   @media screen and (max-width:768px) 
+   {
     
+.icon-preview {
+  margin-left:600px ;
+  width:30px ;
+}
+
+.icon-insta {
+  margin-left:600px ;
+ width:30px;
+}
+.icon-youtube {
+  margin-left:600px ;
+  width:30px ;
+
+}
+.icon-whatsapp {
+  margin-left:600px ;
+  width:30px ;
+}
+   } 
+
+   /*redes sociales para media querie dispo pequeños */
+   @media screen and (max-width:460px) 
+   {
+    .icon-preview {
+      margin-left:400px ;
+      width:30px ;
+    }
+    
+    .icon-insta {
+      margin-left:400px ;
+     width:30px;
+    }
+    .icon-youtube {
+      margin-left:400px ;
+      width:30px ;
+    
+    }
+    .icon-whatsapp {
+      margin-left:400px ;
+      width:30px ;
+    }
+   }
+
 
 
 
