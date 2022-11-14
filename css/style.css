@@ -67,6 +67,36 @@ background-size: cover;
 
 }
 
+ 
+
+
+
+
+.icon-preview {
+  margin-left:1600px ;
+  width:30px ;
+}
+
+.icon-insta {
+  margin-left:1600px ;
+ width:30px;
+}
+.icon-youtube {
+  margin-left:1600px ;
+  width:30px ;
+
+}
+.icon-whatsapp {
+  margin-left:1600px ;
+  width:30px ;
+}
+ .container {
+  margin-bottom:50px ;
+  
+  
+ }
+
+ 
 
     
 
@@ -112,10 +142,7 @@ h2 {
 color: rgb(252, 69, 99);
 transition:6s ;
 }
-.navegacion li :hover {
-    color:bisque ;
-}
-
+.navegacion li :hover 
 
 
 ul {
