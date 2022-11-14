@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
     <title>Document</title>
 </head>
@@ -35,20 +36,13 @@
         </nav>
         </section>
 
-        <section class="imagen-align">
-            <img src="../img/casting bernarda.jpg" alt="teatro">
-            <img src="../img/danza clsica.jpg" alt="danza">
-            <img src="../img/obramuestra.jpg" alt="obra muestra">
-            <img src="../img/imagesrockyhorror.jpg" alt="rocky" class="horror-orden">
-
-         
-        </section>
+       
 
     </header>
 
     <main>
         <div class="grilla">
-            <section class="galeria">
+            <section class="galeria" data-aos="flip-left"  >
                 <h2>Galeria</h2>
                
                 <img src="../img/obramuestra.jpg" alt="fotos">
@@ -58,11 +52,11 @@
         
             </section>
         
-            <section class="tienda">
+            <section class="tienda" data-aos="flip-right" >
                <h2 class="titulo-tienda">Tienda</h2>
         
-                <div class="caja-tienda"><h3> Bienvenida a la Tienda Free art</h3>
-                    <h4> Los mejores Productos de Arte</h4>
+                <div class="caja-tienda"><h3 class ="subtitulo-tienda"> Bienvenida a la Tienda Free art</h3>
+                    <h4 class="subtitulo-tienda"> Los mejores Productos de Arte</h4>
         
                        
                     <div class="caja-art">
@@ -100,8 +94,15 @@
         
         </div>
    
-    </section>
+    
 
     </main>
+
+    <section class="footer"> <footer><h4>todos los derechos</h4></footer>
+    </section>
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>  <script>
+        AOS.init();
+      </script> 
+
 </body>
 </html>    
